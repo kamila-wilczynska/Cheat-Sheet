@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>My Cheat Sheet: HTML Table Reference</title>
+	<link href="style.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+	<header>
+		<h1>Visual rules CSS</h1>
+		<nav>
+			<ul>
+				<li><a href="#tags" class="navitation">CSS declarations</a></li>
+				<li>
+					<a href="#display" class="navitation">CSS display property</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<div class="rule-description">
+			<h2 id="tags">CSS declarations</h2>
+			<p>
+				In CSS, a declaration is the key-value pair of a CSS property and its
+				value. CSS declarations are used to set style properties and construct
+				rules to apply to individual or groups of elements. The property name
+				and value are separated by a colon, and the entire declaration must be
+				terminated by a semi-colon.
+			</p>
+		</div>
+
+		<table>
+			<tr>
+				<th>Declaration</th>
+				<th>Name</th>
+				<th>Description</th>
+				<th>example</th>
+			</tr>
+			<tr>
+				<td>font-size</td>
+				<td>Font Size</td>
+				<td>
+					The font-size CSS property is used to set text sizes. Font size
+					values can be many different units or types such as pixels.
+				</td>
+				<td class="example">font-size: 30px;</td>
+			</tr>
+
+			<tr>
+				<td>background-color</td>
+				<td>Background Color</td>
+				<td>
+					The background-color CSS property controls the background color of
+					elements.
+				</td>
+				<td class="example">background-color: blue;</td>
+			</tr>
+			<tr>
+				<td>!important</td>
+				<td>!important Rule</td>
+				<td>
+					TThe CSS !important rule is used on declarations to override any
+					other declarations for a property and ignore selector specificity.
+					!important rules will ensure that a specific declaration always
+					applies to the matched elements. However, generally it is good to
+					avoid using !important as bad practice.
+				</td>
+				<td class="example">
+					#column-one { .post-title { color: blue !important; }
+				</td>
+			</tr>
+			<tr>
+				<td>opacity:</td>
+				<td>Opacity</td>
+				<td>
+					The opacity CSS property can be used to control the transparency of
+					an element. The value of this property ranges from 0 (transparent)
+					to 1 (opaque).
+				</td>
+				<td class="example">opacity: 0.5;/td</td>
+			</tr>
+
+			<tr>
+				<td>text-align:</td>
+				<td>Text Align</td>
+				<td>
+					The text-align CSS property can be used to set the text alignment of
+					inline contents. This property can be set to these values: left,
+					right, or center.
+				</td>
+				<td class="example">text-align: right;</td>
+			</tr>
+		</table>
+		<br />
+
+		<div class="rule-description">
+			<h2 id="display">CSS display property</h2>
+			<p>
+				IThe CSS display property determines the type of render block for an
+				element.
+			</p>
+		</div>
+
+		<table>
+			<tr>
+				<th>Name</th>
+				<th>Description</th>
+				<th>example</th>
+			</tr>
+			<tr>
+				<td>block</td>
+				<td>
+					Block-level elements take up the full width of their container with
+					line breaks before and after, and can have their height and width
+					manually adjusted.
+				</td>
+				<td class="example">.container3 { display: block; }</td>
+			</tr>
+
+			<tr>
+				<td>Inline</td>
+
+				<td>
+					Inline elements take up as little space as possible, flow
+					horizontally, and cannot have their width or height manually
+					adjusted.
+				</td>
+				<td class="example">.container2 { display: inline; }</td>
+			</tr>
+			<tr>
+				<td>inline-block</td>
+
+				<td>
+					TInline-block elements can appear next to each other, and can have
+					their width and height manually adjusted.
+				</td>
+				<td class="example">.container3 { display: inline-block; }</td>
+			</tr>
+		</table>
+	</main>
+</body>
+
+</html>
